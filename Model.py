@@ -10,7 +10,7 @@ import joblib
 try:
     from google.colab import drive
     drive.mount('/content/drive')
-    data_path = '/content/drive/My Drive/Major Project/NCNFET.csv'
+    data_path = '/your datasheet path'
     df = pd.read_csv(data_path)
 except ImportError:
     data_path = 'NCNFET.csv'
